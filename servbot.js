@@ -16,7 +16,6 @@ bot.on('message', function(user,userID,channelID, message, event){
 				});
 	}
 	if(message.startsWith(prefix)){
-		document.write("we have the prefix");
 		message = message.replace(config.prefix,'');
 		if(message.startsWith("sad")){
 			bot.sendMessage({
