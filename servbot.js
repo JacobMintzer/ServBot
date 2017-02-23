@@ -1,6 +1,6 @@
 var Discord = require('discord.io');
 const config=require('./config.json');
-const prefix='servbot ';
+const prefix="servbot ";
 var bot = new Discord.Client({
 	autorun: true,
 	token: config.token
@@ -16,6 +16,7 @@ bot.on('message', function(user,userID,channelID, message, event){
 				});
 	}
 	if(message.startsWith(prefix)){
+		document.write("we have the prefix");
 		message = message.replace(config.prefix,'');
 		if(message.startsWith("sad")){
 			bot.sendMessage({
