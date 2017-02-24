@@ -1,0 +1,30 @@
+{
+	"name":"ServBot",
+	"description":"A shitposting bot",
+	"version":"0.0.1",
+	"main":"servbot.js",
+	"scripts":{
+		"start":"node servbot.js",
+		"test":"ECHO 'no test set';exit 1;"
+	},
+	"repository":"https://github.com/JacobMintzer/ServBot",
+	"dependencies": {
+		"discord.io":"*"
+	},
+	"engines": {
+		"node": "6.9.5"
+	},
+	"license":"MIT",
+	"author":{
+		"name":"Jacob Mintzer",
+		"email":"(...)",
+		"url":"https://github.com/JacobMintzer"
+	},
+	"contributors": [
+		{
+			"name":"Corey Byrne",
+			"email":"coreyrbyrne@gmail.com",
+			"url":"https://github.com/Brolita"
+		}
+	]
+}
