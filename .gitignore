@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 configTEST.json
 config.json
+=======
+node_modules/
+config.json
+>>>>>>> origin/master
