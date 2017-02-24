@@ -18,10 +18,6 @@ bot.on('message', function(user,userID,channelID, message, event){
 	if(message.startsWith(prefix)){
 		
 		message2 = message.replace(prefix,'');
-		bot.sendMessage({
-				to:channelID,
-				message: message2
-			});
 		if(message2.startsWith("sad")){
 			bot.sendMessage({
 				to:channelID,
