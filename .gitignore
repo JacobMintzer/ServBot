@@ -1,4 +1,4 @@
-configTEST.json
-config.json
+etc/config.json
+var/database
 node_modules/
 
