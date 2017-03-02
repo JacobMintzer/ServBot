@@ -1,14 +1,17 @@
 var Discord = require('discord.io');
 const config= require('./config.json');
 const pkg = require('./package.json');
+const fun= require('./funpost.json');
 const prefix= "servbot ";
+var best="noel";
 var bot = new Discord.Client({
 	autorun: true,
 	token: config.token
 });
 var mapping = require('./mapping.js')(bot);
-mapping.map("fetish","http://imgur.com/a/6Q32e");
+mapping.map("fetish","http://i.imgur.com/i2O03vV.jpg");
 mapping.map("version", `I'm currently running on version ${pkg.version}`);
+mapping.map("who is best girl?", `${fun.noel}`);
 mapping.map("shutdown", function(user,userID,channelID, message, event) {
 	if(config.masters.includes(userID)) {
 		setTimeout(function() {
@@ -33,6 +36,12 @@ bot.on('message', function(user,userID,channelID, message, event){
 			bot.sendMessage({
 				to:channelID,
 				message: "I am dead inside Miss Tron"
+				});
+	}
+	if(message.startsWith("servebot")){
+		bot.sendMessage({
+				to:channelID,
+				message: "my name is servbot"
 				});
 	}
 	if(message.startsWith(prefix)){

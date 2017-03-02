@@ -1,7 +1,7 @@
 {
 	"name":"ServBot",
-	"description":"A shitposting bot",
-	"version":"0.0.1",
+	"description":"A funposting bot",
+	"version":"1.0.0",
 	"main":"servbot.js",
 	"scripts":{
 		"start":"node servbot.js",
@@ -17,7 +17,7 @@
 	"license":"MIT",
 	"author":{
 		"name":"Jacob Mintzer",
-		"email":"(...)",
+		"email":"JrMintz3@gmail.com",
 		"url":"https://github.com/JacobMintzer"
 	},
 	"contributors": [
