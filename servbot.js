@@ -30,7 +30,7 @@ var bot = new Discord.Client({
 var mapping = require('./lib/mapping.js')(bot);
 
 // fetish
-mapping.map("fetish", "http://i.imgur.com/i2O03vV.jpg");
+mapping.map("fetish", "like if u agree \nhttps://pbs.twimg.com/media/C6fJcOvU8AAAIxR.jpg");
 
 // version
 mapping.map("version", `I'm currently running on version ${pkg.version}`);

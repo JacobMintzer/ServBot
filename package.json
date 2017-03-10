@@ -1,7 +1,7 @@
 {
 	"name":"ServBot",
 	"description":"A funposting bot",
-	"version":"1.0.0",
+	"version":"1.0.1",
 	"main":"servbot.js",
 	"scripts":{
 		"start":"node servbot.js",
